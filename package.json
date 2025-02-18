@@ -1,9 +1,10 @@
 {
-  "name": "intro-1",
+  "name": "cv-assigment",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
